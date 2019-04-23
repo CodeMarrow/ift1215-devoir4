@@ -1,7 +1,7 @@
 #!/bin/sh
 #pgcd.sh script
 #Auteur : 
-# - Andre-Viet Tran 2001185
+# - Andre-Viet Tran 2001185 andreviet2009@hotmail.com
 # - Alexandre Keo p0992086 alexandreskeo90@gmail.com
 #Fait le 23 avril 2019
 #But : Calculer le pgcd de deux nombres positifs
