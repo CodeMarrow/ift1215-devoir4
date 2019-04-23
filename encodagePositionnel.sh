@@ -1,7 +1,7 @@
 #!/bin/bash
 #encodagePositionnel.sh
 #Auteur : 
-# - Andre-Viet Tran 2001185
+# - Andre-Viet Tran 2001185 andreviet2009@hotmail.com
 # - Alexandre Keo  p0992086 alexandreskeo90@gmail.com
 #Fait le 23 avril 2019
 #But : affiche un nombre(argument 1) en base (argument 2).
