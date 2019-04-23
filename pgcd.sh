@@ -2,9 +2,10 @@
 #pgcd.sh script
 #Auteur : 
 # - Andre-Viet Tran 2001185
-# - Alexandre Keo 
+# - Alexandre Keo p0992086 alexandreskeo90@gmail.com
 #Fait le 23 avril 2019
 #But : Calculer le pgcd de deux nombres positifs
+
 if [ $# -ne 2 ]; then
 	echo "Mauvais nombre d'argument"
 	exit
