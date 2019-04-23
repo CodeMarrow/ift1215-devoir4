@@ -10,15 +10,15 @@ entier=${1#-}
 base=$2
 
 if [ $# -ne 2 ]; then			
-	echo "Erreur: 2 arguments sont requis, $# fourni"
+	echo "Erreur: 2 arguments sont requis."
 	exit 1
 fi
 if ! [[ $1 =~ ^[+-]?[0-9]+$ ]]; then		
-	echo "Erreur: argument 1 doit etre un entier, $1 fourni"
+	echo "Erreur: argument 1 doit etre un entier, $1 n'est pas un entier."
 	exit 1
 fi
 if ! [[ $2 =~ ^[2-9]{1}$ ]]; then	
-	echo "Erreur: argument 2 doit etre un entier entre 2 et 9 inclusivement, $2 fourni"
+	echo "Erreur: argument 2 doit etre un entier entre 2 et 9 inclusivement, $2 n'est pas valide."
 	exit 1
 fi
 
