@@ -18,9 +18,9 @@ fi
 while [ "$x" -ne "$y" ]; 
 do
 	if [ "$x" -gt "$y" ]; then
-		x=$x-$y
+		x=$(($x - $y))
 	else
-		y=$y-$x
+		y=$(($y - $x))
 	fi
 done
 echo "pgcd de $1 et de $2 est $x"
